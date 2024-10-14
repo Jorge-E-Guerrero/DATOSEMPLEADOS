@@ -6,7 +6,7 @@ const db = require('./src/db/config_db')
 require('dotenv').config({ path: '.env' });
 
 const app = express();
-const PORT = process.env.APP_PORT || 3000;
+const PORT = process.env.APP_PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
